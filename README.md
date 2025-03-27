@@ -8,26 +8,40 @@ Ce convertisseur est idéal pour les développeurs, les étudiants et toute pers
 
 ## Installation
 
-1.  **Clonez le dépôt :**
+1. Assurez vous d'avoir python3 installé sur votre ordinateur
+2.  **Clonez le dépôt :**
 
     ```bash
     git clone [https://github.com/Xil-ef/convertisseur-de-temperature-en-ligne-de-commande-python.git](https://www.google.com/search?q=https://github.com/Xil-ef/convertisseur-de-temperature-en-ligne-de-commande-python.git)
     cd convertisseur-de-temperature-en-ligne-de-commande-python
     ```
 
-2.  **Exécutez le script :**
+3.  **Exécutez le script :**
 
     ```bash
     python convertisseur_temperature.py
     ```
+4.  Suivez les instructions à l'écran pour entrer la valeur à convertir, l'unité initiale et l'unité finale.
 
 ## Utilisation
 
 Le script vous demandera d'entrer la valeur de la température, l'unité initiale et l'unité de conversion. Suivez simplement les instructions à l'écran.
 
+## Exemple
+![convertiseur](https://github.com/user-attachments/assets/38888122-ac69-46ee-bb5f-067d9f3a57e4)
+
 ## Dépendances
 
 Ce projet ne nécessite aucune dépendance externe. Il utilise uniquement les fonctionnalités standard de Python.
+
+## Gestion des erreurs
+
+Le script gère les erreurs suivantes :
+
+* **Unités invalides** : Si vous entrez une unité autre que C, F ou K, le script affichera un message d'erreur.
+* **Erreurs de valeur** : Si vous entrez une valeur non numérique, le script affichera un message d'erreur.
+* **Erreurs inattendues**: le script gère les exceptions non anticipées et affiche un message d'erreur.
+
 
 ## Contribution
 
